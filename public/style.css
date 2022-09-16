@@ -1,0 +1,50 @@
+.accordion-body {
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 15px;
+}
+
+.components-item {
+    display: flex;
+    align-items: center;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+
+.components-item b {
+    width: 80%; 
+}
+
+.components-item select {
+    width: 20%;
+}
+
+.accordion-body .row { 
+    grid-row-gap: 15px;
+    margin-top: 30px;
+}
+
+.accordion-body .btn {
+    margin-left: auto;
+    display: flex;
+}
+
+.incdicator-item {
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+}
+
+
+.accordion-button b{
+    margin-left: 15px;
+}
+
+.accordion-body .grid div{
+    display: flex;
+    grid-column-gap: 15px;
+    width: 40%;
+}
+.accordion-body .grid div b{
+    width: 50%;
+}
